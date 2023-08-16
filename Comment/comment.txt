@@ -1,0 +1,15 @@
+-- sửa name thành nvarcha, alter table
+-- thêm 1 số thuộc tính,vd hình ảnh sản phẩm
+-- invoice không cần lắm. nếu  ng dùng chọn sản phẩm thì thêm vào sestion, nếu ng dùng xác nhận thì add vào dtb.
+-------------------------------------------------------------------- 
+ client site             |          admin site
+                         |
+     customer            |     employee, admin, technical(staff)
+                         |
+                       
+ -------------------------------------------------------------------                   
+-- promotion... gắn với sản phẩm gì
+-- user là employee, ko cần thêm bảng
+-- thêm danh sách sản phẩm, quản lý người dùng,.. trong admin site
+-- chưa có trang client, mới có admin site
+-- 

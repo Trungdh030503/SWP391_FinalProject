@@ -1,0 +1,24 @@
+.app-header {
+    position: relative;
+    z-index: 50;
+    width: 100%;
+    background: #623636;
+    padding: 0 25px
+}
+
+.left-sidebar {
+    width: 270px;
+    background-color: #911d1d;
+    position: absolute;
+    -webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    height: 100%;
+    z-index: 11;
+    border-right: 1px solid rgb(229,234,239)
+}
+
+
+.sidebar-nav ul .sidebar-item .sidebar-link:hover {
+    background-color: ;
+    color: #ff875d
+}

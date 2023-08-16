@@ -1,0 +1,10 @@
+
+
+BA: vẽ db diagram/ thiết kế db
+
+Dev: thực thi, viết code
+
+Tester: tạo testing plan dựa trên nguyên lý 
+và test tương ứng
+
+
