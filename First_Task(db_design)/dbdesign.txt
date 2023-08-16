@@ -1,0 +1,36 @@
+Customer:
+id, name, email, phone, address, bought_count, status
+// bought_count: dem so san pham customer da mua
+// status: 	
+	(1) khach hang moi
+ 	(2) khach hang dang su dung
+	(3) khach hang da dung hop tac
+
+Seller:
+id, name, email, phone
+
+product
+id, name, description, price, stock, warrantyperiod
+// kiem ke so luong (stock)
+// luu thoi han bao hanh cua san pham warrantyperiod 
+
+Orderitems
+id, orderid, productid, quantity, price
+
+order
+id, customerid, total cost
+
+purchase
+id, orderid, orderdate
+// khi an purchase tren he thong, bat dau tinh thoi han bao hanh
+
+warranty-info
+id, start, end
+
+offer
+id, name, required_count, max_count, discount
+// khach hang moi (max_count < ....) 
+// tri an khach hang (required_count >... ) 
+
+admin
+id, username, password

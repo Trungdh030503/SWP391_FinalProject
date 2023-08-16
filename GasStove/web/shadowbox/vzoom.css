@@ -1,0 +1,21 @@
+#vZoomMagnifier,
+#vZoomArea {
+  border: 1px solid #c1c1c1;
+}
+#vZoomMagnifier {
+  cursor: pointer;
+  overflow: hidden;
+}
+#vZoomArea {
+  width: 200px;
+  height: 200px;
+}
+#vZoomTransparentOverlay {
+  opacity: 0.5;
+  background: #ccc;
+  filter: alpha(opacity=50);
+  cursor: pointer;
+}
+#vZoomLoadingArea {
+  cursor: pointer;
+}
